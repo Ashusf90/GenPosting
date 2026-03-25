@@ -3,7 +3,7 @@ using Microsoft.JSInterop;
 namespace GenPosting.Web.Services;
 
 public interface ILinkedInStateService
-{
+{ 
     string? AccessToken { get; }
     bool IsAuthenticated { get; }
     Task InitializeAsync();
